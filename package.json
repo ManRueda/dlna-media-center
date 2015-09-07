@@ -1,0 +1,28 @@
+{
+  "name": "dlna-media-center",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Rueda <manuel.rueda.un@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManRueda/dlna-media-center.git"
+  },
+  "window": {
+    "toolbar": true,
+    "width": 800,
+    "height": 500
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ManRueda/dlna-media-center/issues"
+  },
+  "homepage": "https://github.com/ManRueda/dlna-media-center",
+  "dependencies": {
+    "dlnacast": "git+https://github.com/ManRueda/dlnacast.git",
+    "renderer-finder": "^0.1.1"
+  }
+}

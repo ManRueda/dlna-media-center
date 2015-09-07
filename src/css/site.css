@@ -1,0 +1,56 @@
+#Renderers ul{
+
+}
+
+#Renderers ul li{
+  background-color: rgb(187, 187, 187);
+  padding: 1px 15px;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  list-style: none;
+}
+
+#Renderers ul li:hover{
+  background-color: #93C2EA;
+}
+
+#Renderers ul li.selected{
+  background-color: #337ab7;
+}
+
+
+
+
+#media > ul{
+  max-height: 350px;
+  overflow: auto;
+}
+
+#media ul li{
+
+}
+
+#media ul{
+  font-weight: normal;
+}
+
+#media ul li.selected{
+  color:red;
+}
+
+#media #mediaLabels > span{
+  display: inline-block;
+}
+
+#media ul li:hover{
+
+}
+
+#media ul li.file{
+  font-weight: normal;
+}
+
+#media ul li.directory{
+  font-weight: 700;
+}

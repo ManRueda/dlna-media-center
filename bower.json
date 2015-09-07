@@ -1,0 +1,16 @@
+{
+  "name": "dlna-media-center",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ManRueda/dlna-media-center",
+  "authors": [
+    "Manuel Rueda <manuel.rueda.un@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
